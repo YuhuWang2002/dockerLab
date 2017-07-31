@@ -1,0 +1,13 @@
+{
+    "devices":[
+        {"name":"leaf1", "port":"8001"},
+        {"name":"leaf2", "port":"8002"},
+        {"name":"leaf3", "port":"8003"},
+        {"name":"hub",   "port":"8004"}
+    ],
+    "connections":[
+        {"leaf1":"fpPort1","hub":"fpPort1"},
+        {"leaf2":"fpPort1","hub":"fpPort2"},
+        {"leaf3":"fpPort1","hub":"fpPort3"}
+    ]
+}
